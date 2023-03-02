@@ -4,7 +4,7 @@
   "description": "Aprendendo a construir um site da maneira mais moderna através do vídeo tutorial do Filipe Deschamps.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
