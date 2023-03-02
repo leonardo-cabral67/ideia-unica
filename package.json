@@ -1,0 +1,25 @@
+{
+  "name": "ideia-unica",
+  "version": "1.0.0",
+  "description": "Aprendendo a construir um site da maneira mais moderna através do vídeo tutorial do Filipe Deschamps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardo-cabral67/ideia-unica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardo-cabral67/ideia-unica/issues"
+  },
+  "homepage": "https://github.com/leonardo-cabral67/ideia-unica#readme",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
