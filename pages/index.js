@@ -1,7 +1,14 @@
-import { useState } from "react"
+import Link from 'next/link';
 
-function home() {
-    return <h1>Home</h1>
+function Home() {
+    return (
+    <div>
+        <h1>Home</h1>
+        <Link href="/about">
+            Acessa página Sobre
+        </Link>
+    </div> 
+    )
 }
 
-export default home
+export default Home
