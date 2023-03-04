@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 function Time(props) {    
     return (
         <div>
@@ -15,7 +13,8 @@ export function getStaticProps() {
     return {
         props: {
             staticDateString: dynamicDateString
-        }
+        },
+        revalidate: 1
     }
 }
 
